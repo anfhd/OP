@@ -12,4 +12,5 @@ int main() {
 	if (z < min) min = z;
 	printf("%f", (max - x * min) / (x * y * z + x * x + y * y * y));
 	//не використовуйте pow() для піднімання до квадрату\кубу
+	return 0;
 }
