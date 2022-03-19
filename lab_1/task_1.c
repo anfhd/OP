@@ -7,4 +7,5 @@ int main() {
 	scanf("%f", &x);
 	scanf("%f", &y);
 	printf("%f", pow(y, x) + sqrt((fabs(x) + fabs(y))));
+	return 0;
 }
